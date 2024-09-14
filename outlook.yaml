@@ -172,10 +172,10 @@ credentials:
     type: "json"
   username:
     key: (login|UserName|username|email|account)
-    search: (.*)
+    search: '(.*)'
   password:
     key: (passwd|Password|password|login_password|pass|pwd|session_password|PASSWORD)
-    search: (.*)
+    search: '(.*)'
   username:
     key: '(login)'
     search: '(.*)'
